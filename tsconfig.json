@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "target": "ESNEXT",
+    "module": "commonjs",
+    "removeComments": true,
+    "esModuleInterop": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "declaration": false
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

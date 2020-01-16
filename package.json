@@ -1,0 +1,24 @@
+{
+  "name": "node-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "start:debug": "tsc && node -r dotenv/config --inspect=${NODE_DEBUGGER_PORT:-9229} dist/index.js",
+    "start:debug-brk": "tsc && node -r dotenv/config --inspect-brk=${NODE_DEBUGGER_PORT:-9229} dist/index.js",
+    "start": "tsc && node -r dotenv/config dist/index.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^13.1.7",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.4"
+  }
+}
