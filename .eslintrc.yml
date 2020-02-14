@@ -48,7 +48,7 @@ rules:
   no-useless-return: error
   prefer-promise-reject-errors: error
   radix: error
-  no-undefined: error
+  no-undefined: off
   array-bracket-newline:
     - error
     - consistent
@@ -140,7 +140,7 @@ rules:
   "@typescript-eslint/no-non-null-assertion": 'off'
   "@typescript-eslint/no-useless-constructor": error
   "@typescript-eslint/prefer-for-of": warn
-  "@typescript-eslint/no-parameter-properties": error
+  "@typescript-eslint/no-parameter-properties": off
   "@typescript-eslint/no-unnecessary-type-arguments": warn
   "@typescript-eslint/prefer-function-type": warn
   "@typescript-eslint/prefer-readonly": warn
@@ -148,9 +148,7 @@ rules:
   "@typescript-eslint/camelcase":
     - error
     - properties: never
-  "@typescript-eslint/explicit-function-return-type":
-    - error
-    - allowExpressions: true
+  "@typescript-eslint/explicit-function-return-type": off
   "@typescript-eslint/interface-name-prefix": 'off'
   "@typescript-eslint/no-unused-vars":
     - error
