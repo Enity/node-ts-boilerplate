@@ -1,3 +1,5 @@
-const { HELLO } = process.env;
+export const hello = () => {
+  return 'hello';
+};
 
-console.log(HELLO);
+console.log(hello());

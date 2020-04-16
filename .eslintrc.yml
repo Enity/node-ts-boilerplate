@@ -1,6 +1,7 @@
 env:
   es6: true
   node: true
+  mocha: true
 extends:
   - 'eslint:recommended'
   - 'plugin:@typescript-eslint/eslint-recommended'
@@ -91,7 +92,7 @@ rules:
   switch-colon-spacing: error
   arrow-body-style:
     - error
-    - as-needed
+    - always
   arrow-parens:
     - error
     - always

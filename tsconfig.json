@@ -2,7 +2,6 @@
   "compilerOptions": {
     "strict": true,
     "sourceMap": true,
-    "rootDir": "./src",
     "outDir": "./dist",
     "target": "ESNEXT",
     "module": "commonjs",
@@ -11,9 +10,9 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "resolveJsonModule": true,
-    "declaration": false
+    "declaration": false,
+    "baseUrl": "./",
+    "incremental": true
   },
-  "include": [
-    "src/**/*"
-  ]
+  "exclude": ["node_modules", "dist"]
 }
