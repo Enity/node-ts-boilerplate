@@ -90,9 +90,6 @@ rules:
     - error
     - always
   switch-colon-spacing: error
-  arrow-body-style:
-    - error
-    - always
   arrow-parens:
     - error
     - always
